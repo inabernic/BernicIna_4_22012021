@@ -268,7 +268,7 @@ a:hover {
     margin-top: 30px;
 }
 
-.voffset-lg {
+.voffset-lg, .citation {
     margin-top: 80px;
 }
 
@@ -301,6 +301,30 @@ a:hover {
     line-height: 44px;
 }
 
+.citation{
+    max-width: 84%;
+    max-height: 91px;
+    font-style: italic;
+    font-size: 18px;
+    padding-left: 89px;
+    margin-top: 0;
+}
+
+.title{
+    width: 80%;
+    padding-left: 20%;
+}
+
+.author{
+    align-items: center;
+    font-size: 13px;
+}
+
+.realisations{
+    font-size: 22px;
+    max-width: 72%;
+    padding-left: 291px;
+}
 .navbar-brand img {
     max-height: 200px;
     margin: 0 5px 0 0;
@@ -1001,14 +1025,14 @@ h4 {
     .btn-dwn {
         display: none;
     }
-    .voffset {
+    .voffset, .citation {
         margin-top: 5px;
     }
     .voffset-md {
         margin-top: 20px;
     }
     .voffset-lg {
-        margin-top: 30px;
+        /*margin-top: 30px; */
     }
     form {
         padding: 5px;
