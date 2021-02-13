@@ -1,7 +1,7 @@
 {
     "name": "Google I/O 2015",
     "short_name": "I/O 2015",
-    "start_url": "index.html?utm_source=homescreen",
+    "start_url": "index.html?utm-source=homescreen",
     "icons": [{
             "src": "favicon.jpg",
             "sizes": "32x32",
