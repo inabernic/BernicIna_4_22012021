@@ -325,6 +325,15 @@ a:hover {
     max-width: 72%;
     padding-left: 291px;
 }
+
+.keywords{
+    color:#cccccc;font-size:1px;
+}
+
+.keywords1{
+    color:#F3976C;
+}
+
 .navbar-brand img {
     max-height: 200px;
     margin: 0 5px 0 0;
