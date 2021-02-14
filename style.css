@@ -296,8 +296,7 @@ a:hover {
     height: auto;
     padding: 3px 15px;
     font-size: 25px;
-    font-weight: normal;
-    font-weight: 600;
+    font-weight: normal 600;
     line-height: 44px;
 }
 
