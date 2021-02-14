@@ -1,0 +1,4 @@
+User-Agent: * 
+Disallow: /intranet/ 
+Allow: /*.css?* 
+Sitemap: https://inabernic.github.io/BernicIna_4_22012021/
