@@ -301,17 +301,14 @@ a:hover {
 }
 
 .citation{
-    max-width: 84%;
-    max-height: 91px;
-    font-style: italic;
-    font-size: 18px;
-    padding-left: 89px;
-    margin-top: 0;
-}
-
-.title{
+    display: contents;
     width: 80%;
-    padding-left: 20%;
+} 
+
+.citation_text{
+    font-size: 18px;
+    font-style: italic;
+    margin-top: 0;
 }
 
 .author{
@@ -321,8 +318,6 @@ a:hover {
 
 .realisations{
     font-size: 22px;
-    max-width: 72%;
-    padding-left: 291px;
 }
 
 .keywords{
