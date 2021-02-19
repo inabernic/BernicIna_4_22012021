@@ -300,24 +300,34 @@ a:hover {
     line-height: 44px;
 }
 
+.title{
+width: 60%;
+display: inline-block;
+}
+
 .citation{
     display: contents;
     width: 80%;
 } 
 
 .citation_text{
-    font-size: 18px;
+    font-size: 20px;
     font-style: italic;
     margin-top: 0;
+    margin-bottom: 0;
+    width: 78%;
+    margin-left: 49px;
 }
 
 .author{
     align-items: center;
-    font-size: 13px;
+    font-size: 15px;
 }
 
 .realisations{
     font-size: 22px;
+    display: inline-block;
+    width: 45%;
 }
 
 .keywords{
