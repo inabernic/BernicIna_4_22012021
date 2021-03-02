@@ -1,0 +1,23 @@
+{
+    "name": "Google I/O 2015",
+    "short_name": "I/O 2015",
+    "start_url": "index.html?utm-source=homescreen",
+    "icons": [{
+            "src": "favicon.jpg",
+            "sizes": "32x32",
+            "type": "image/jpg"
+        }, {
+            "src": "favicon-16x16.png",
+            "sizes": "16x16",
+            "type": "image/png"
+        }, {
+            "src": "favicon-32x32.png",
+            "sizes": "32x32",
+            "type": "image/png"
+        }
+
+    ],
+    "theme_color": "#ffffff",
+    "background_color": "#ffffff",
+    "display": "standalone"
+}

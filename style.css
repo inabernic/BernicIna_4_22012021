@@ -268,7 +268,7 @@ a:hover {
     margin-top: 30px;
 }
 
-.voffset-lg {
+.voffset-lg, .citation {
     margin-top: 80px;
 }
 
@@ -297,8 +297,45 @@ a:hover {
     padding: 3px 15px;
     font-size: 25px;
     font-weight: normal;
-    font-weight: 600;
     line-height: 44px;
+}
+
+.title{
+width: 60%;
+display: inline-block;
+}
+
+.citation{
+    display: contents;
+    width: 80%;
+} 
+
+.citation_text{
+    font-size: 20px;
+    font-style: italic;
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 78%;
+    margin-left: 49px;
+}
+
+.author{
+    align-items: center;
+    font-size: 15px;
+}
+
+.realisations{
+    font-size: 22px;
+    display: inline-block;
+    width: 45%;
+}
+
+.keywords{
+    color:#cccccc;font-size:1px;
+}
+
+.keywords1{
+    color:#F3976C;
 }
 
 .navbar-brand img {
@@ -659,7 +696,7 @@ a {
 }
 
 .hero-bloc-text {
-    font-size: 38px;
+    font-size: 32px;
 }
 
 .hero-bloc-text-sub {
@@ -822,7 +859,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
@@ -848,13 +885,13 @@ h4 {
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
     }
@@ -872,10 +909,10 @@ h4 {
         overflow-x: hidden;
         position: relative;
     }
-    .bloc {
+    /* .bloc {
         padding-left: constant(safe-area-inset-left);
         padding-right: constant(safe-area-inset-right);
-    }
+    } */
     .bloc-group,
     .bloc-group .bloc {
         display: block;
@@ -884,8 +921,8 @@ h4 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
+        /* padding-left: constant(safe-area-inset-left);
+        padding-right: constant(safe-area-inset-right); */
     }
 }
 
@@ -1001,15 +1038,13 @@ h4 {
     .btn-dwn {
         display: none;
     }
-    .voffset {
+    .voffset, .citation {
         margin-top: 5px;
     }
     .voffset-md {
         margin-top: 20px;
     }
-    .voffset-lg {
-        margin-top: 30px;
-    }
+
     form {
         padding: 5px;
     }
